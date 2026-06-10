@@ -237,48 +237,51 @@
   <!-- vine ring and summary box -->
   <rect x="34" y="2114" width="732" height="218" rx="26" fill="none" stroke="#5E8C5A" stroke-width="3"/>
   <rect x="48" y="2128" width="704" height="190" rx="14" fill="#2F5D3A"/>
+
+  <!-- garland drawn over the box, hand-scattered: varied rotation, scale, and spacing -->
+  <!-- top edge: a dense cluster left, loose sprigs right -->
+  <use xlink:href="#bigLeafA" transform="translate(95,2118) rotate(38)"/>
+  <use xlink:href="#bigLeafB" transform="translate(128,2110) rotate(-52) scale(0.85)"/>
+  <use xlink:href="#bigLeafA" transform="translate(156,2120) rotate(12) scale(1.1)"/>
+  <use xlink:href="#bloomP" transform="translate(66,2120) rotate(15)"/>
+  <use xlink:href="#bloomO" transform="translate(213,2108) rotate(-20) scale(0.88)"/>
+  <use xlink:href="#bigLeafB" transform="translate(252,2116) rotate(-18) scale(0.9)"/>
+  <use xlink:href="#tomatoBig" transform="translate(307,2112) rotate(9)"/>
+  <use xlink:href="#bigLeafA" transform="translate(342,2120) rotate(44) scale(1.15)"/>
+  <use xlink:href="#bigLeafB" transform="translate(468,2118) scale(-0.9,0.9) rotate(26)"/>
+  <use xlink:href="#bloomY" transform="translate(522,2110) rotate(31)"/>
+  <use xlink:href="#bigLeafA" transform="translate(558,2106) scale(-1,1) rotate(-46) scale(0.8)"/>
+  <use xlink:href="#bigLeafB" transform="translate(648,2118) scale(-1.05,1.05) rotate(28)"/>
+  <use xlink:href="#bigLeafA" transform="translate(688,2110) scale(-0.78,0.78) rotate(-38)"/>
+  <use xlink:href="#bloomO" transform="translate(739,2124) rotate(22) scale(1.08)"/>
+  <!-- bottom edge: uneven trail with fruit -->
+  <use xlink:href="#bloomO" transform="translate(58,2322) rotate(-25)"/>
+  <use xlink:href="#bigLeafA" transform="translate(102,2330) rotate(-42) scale(1.1)"/>
+  <use xlink:href="#bigLeafB" transform="translate(132,2338) rotate(11) scale(0.78)"/>
+  <use xlink:href="#tomatoBig" transform="translate(207,2336) rotate(14) scale(0.92)"/>
+  <use xlink:href="#bigLeafB" transform="translate(248,2330) rotate(-27) scale(0.95)"/>
+  <use xlink:href="#bloomP" transform="translate(352,2340) rotate(42) scale(0.9)"/>
+  <use xlink:href="#bigLeafA" transform="translate(398,2338) rotate(17) scale(1.18)"/>
+  <use xlink:href="#tomatoBig" transform="translate(472,2330) rotate(-8) scale(0.88)"/>
+  <use xlink:href="#bigLeafA" transform="translate(514,2332) scale(-0.95,0.95) rotate(-34)"/>
+  <use xlink:href="#bloomP" transform="translate(610,2326) rotate(-16) scale(1.07)"/>
+  <use xlink:href="#bigLeafB" transform="translate(662,2340) scale(-1.1,1.1) rotate(21)"/>
+  <use xlink:href="#bloomY" transform="translate(742,2330) rotate(18)"/>
+  <!-- left edge: leaf, bloom, leaf, tomato, sprig -->
+  <use xlink:href="#bigLeafA" transform="translate(36,2152) rotate(29) scale(1.1)"/>
+  <use xlink:href="#bloomY" transform="translate(44,2198) rotate(-32) scale(0.95)"/>
+  <use xlink:href="#bigLeafB" transform="translate(33,2222) rotate(-7) scale(0.82)"/>
+  <use xlink:href="#tomatoBig" transform="translate(50,2264) rotate(-18)"/>
+  <use xlink:href="#bigLeafA" transform="translate(40,2294) rotate(36) scale(0.72)"/>
+  <!-- right edge: tomato up high for asymmetry -->
+  <use xlink:href="#tomatoBig" transform="translate(748,2154) rotate(12) scale(1.05)"/>
+  <use xlink:href="#bigLeafB" transform="translate(764,2192) scale(-0.9,0.9) rotate(19)"/>
+  <use xlink:href="#bloomO" transform="translate(754,2232) rotate(36)"/>
+  <use xlink:href="#bigLeafA" transform="translate(762,2272) scale(-1.12,1.12) rotate(-14)"/>
+
+  <!-- summary text drawn last so it always sits above the garland -->
   <text x="400" y="2176" text-anchor="middle" font-size="25" font-weight="bold" fill="#F7F3E8">Three things to remember</text>
   <text x="400" y="2220" text-anchor="middle" font-size="20" fill="#F7F3E8">1.  It only sees the one folder you choose.</text>
   <text x="400" y="2254" text-anchor="middle" font-size="20" fill="#F7F3E8">2.  It always asks before it acts.</text>
   <text x="400" y="2288" text-anchor="middle" font-size="20" fill="#F7F3E8">3.  You can stop it anytime — you're the boss.</text>
-
-  <!-- garland drawn over the box so leaves and fruit overlap its edges -->
-  <!-- top edge -->
-  <use xlink:href="#bigLeafA" transform="translate(100,2116) rotate(30)"/>
-  <use xlink:href="#bigLeafB" transform="translate(142,2110) rotate(-40)"/>
-  <use xlink:href="#bigLeafB" transform="translate(285,2118) rotate(35)"/>
-  <use xlink:href="#bigLeafA" transform="translate(322,2108) rotate(-25)"/>
-  <use xlink:href="#bigLeafA" transform="translate(505,2118) scale(-1,1) rotate(35)"/>
-  <use xlink:href="#bigLeafB" transform="translate(542,2108) scale(-1,1) rotate(-30)"/>
-  <use xlink:href="#bigLeafB" transform="translate(660,2116) scale(-1,1) rotate(30)"/>
-  <use xlink:href="#bigLeafA" transform="translate(700,2110) scale(-1,1) rotate(-40)"/>
-  <use xlink:href="#bloomP" transform="translate(62,2122)"/>
-  <use xlink:href="#bloomO" transform="translate(225,2112)"/>
-  <use xlink:href="#tomatoBig" transform="translate(400,2118)"/>
-  <use xlink:href="#bloomY" transform="translate(575,2112)"/>
-  <use xlink:href="#bloomO" transform="translate(738,2122)"/>
-  <!-- bottom edge -->
-  <use xlink:href="#bigLeafA" transform="translate(110,2330) rotate(-35)"/>
-  <use xlink:href="#bigLeafB" transform="translate(152,2338) rotate(18)"/>
-  <use xlink:href="#bigLeafB" transform="translate(300,2330) rotate(-30)"/>
-  <use xlink:href="#bigLeafA" transform="translate(338,2340) rotate(14)"/>
-  <use xlink:href="#bigLeafA" transform="translate(495,2330) scale(-1,1) rotate(-30)"/>
-  <use xlink:href="#bigLeafB" transform="translate(532,2340) scale(-1,1) rotate(14)"/>
-  <use xlink:href="#bigLeafB" transform="translate(655,2330) scale(-1,1) rotate(-35)"/>
-  <use xlink:href="#bigLeafA" transform="translate(692,2338) scale(-1,1) rotate(18)"/>
-  <use xlink:href="#bloomO" transform="translate(62,2326)"/>
-  <use xlink:href="#tomatoBig" transform="translate(172,2330)"/>
-  <use xlink:href="#bloomP" transform="translate(400,2334)"/>
-  <use xlink:href="#tomatoBig" transform="translate(628,2330)"/>
-  <use xlink:href="#bloomP" transform="translate(738,2326)"/>
-  <!-- left edge -->
-  <use xlink:href="#bigLeafA" transform="translate(38,2162) rotate(15)"/>
-  <use xlink:href="#bigLeafB" transform="translate(38,2244) rotate(-10)"/>
-  <use xlink:href="#bloomY" transform="translate(46,2202)"/>
-  <use xlink:href="#tomatoBig" transform="translate(48,2272)"/>
-  <!-- right edge -->
-  <use xlink:href="#bigLeafA" transform="translate(762,2162) scale(-1,1) rotate(15)"/>
-  <use xlink:href="#bigLeafB" transform="translate(762,2244) scale(-1,1) rotate(-10)"/>
-  <use xlink:href="#bloomY" transform="translate(754,2202)"/>
-  <use xlink:href="#tomatoBig" transform="translate(752,2272)"/>
 </svg>
